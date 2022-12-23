@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.devtools.ksp",
+    "module": "symbol-processing-api",
+    "version": "1.5.10-1.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "tg4xojc5uzegzexnlpvatpu46y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "symbol-processing-api-1.5.10-1.0.0-beta01.jar",
+          "url": "symbol-processing-api-1.5.10-1.0.0-beta01.jar",
+          "size": 86947,
+          "sha512": "3221a205e1d153f47b14bd2db5013432d81e29574a5fc42316785b6937e325974bff0db4d8f1e2ff181596cae8a1a606ccac4bc190adca0191168f9cbc3c4867",
+          "sha256": "a443d2128c6e6287d195eeedc85c66b27254191bf74b1a7d5be79264da8e3abb",
+          "sha1": "0c5a93ef55b4d2fe1468b7c8216003d88ec53b2a",
+          "md5": "eb7957ce86d4bcc05df40298378a7d49"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.5.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "symbol-processing-api-1.5.10-1.0.0-beta01.jar",
+          "url": "symbol-processing-api-1.5.10-1.0.0-beta01.jar",
+          "size": 86947,
+          "sha512": "3221a205e1d153f47b14bd2db5013432d81e29574a5fc42316785b6937e325974bff0db4d8f1e2ff181596cae8a1a606ccac4bc190adca0191168f9cbc3c4867",
+          "sha256": "a443d2128c6e6287d195eeedc85c66b27254191bf74b1a7d5be79264da8e3abb",
+          "sha1": "0c5a93ef55b4d2fe1468b7c8216003d88ec53b2a",
+          "md5": "eb7957ce86d4bcc05df40298378a7d49"
+        }
+      ]
+    }
+  ]
+}
